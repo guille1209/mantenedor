@@ -16,9 +16,9 @@
                 <img src={{ asset('images/login-logo.png') }}  alt=""/>
             </div>
             <div class="login-wrap">
-                <input type="text" class="form-control" name="email" placeholder={{ trans('ui.login.username') }} value="admin" autofocus>
+                <input type="text" class="form-control" name="email" placeholder={{ trans('ui.login.username') }} value="" autofocus>
 
-                <input type="password" class="form-control" name="password" placeholder={{ trans('ui.login.password') }} value="123456">
+                <input type="password" class="form-control" name="password" placeholder={{ trans('ui.login.password') }} value="">
 
                 {!! Form::select('servidor',array_combine(explode(",", env('IP_SERVIDORES')),explode(",", env('SERVIDORES'))),  null, ['class' => 'form-control', 'placeholder' =>"Servidor"]) !!}
 
