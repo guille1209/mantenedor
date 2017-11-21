@@ -145,7 +145,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class, 
         Zizaco\Entrust\EntrustServiceProvider::class,
-        //Barryvdh\DomPDF\ServiceProvider::class,
+        Barryvdh\DomPDF\ServiceProvider::class,
 
 
 
@@ -199,7 +199,7 @@ return [
         'Form'      => 'Collective\Html\FormFacade',
         'Html'      => 'Collective\Html\HtmlFacade',
         'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
-        //'PDF'       => Barryvdh\DomPDF\Facade::class,
+        'PDF'       => Barryvdh\DomPDF\Facade::class,
 
     ],
 
