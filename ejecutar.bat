@@ -2,7 +2,7 @@
 
 
 set OLD_PATH=%PATH%
-set PATH=C:\mantenedorV1;%PATH%
+set PATH=C:\mantenedor;%PATH%
 
 START http://localhost:8000
 
